@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: #92a5db; /* Light background */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    height: 30px;
+}
+
+button{
+    font-size: 1rem;
+    border-radius: 3px;
+    border-color: rgb(212, 212, 212);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
